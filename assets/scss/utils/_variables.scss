@@ -1,0 +1,69 @@
+// Project variables
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+
+// Paths
+$images__path--root: "assets/images/";
+
+// Sizes and rounding
+//////////////////////////////////////////////////////
+
+$gutter: 20px;
+
+
+// Effects
+//////////////////////////////////////////////////////
+
+$fade: 0.2;
+$fade--percent: 8%;
+
+$shadows__coords-x: 0;
+$shadows__coords-y: 0;
+$shadows__size: 10px;
+$shadows__stretch: 0;
+
+$transition-duration: 0.2s;
+$transition-timing-function: ease-in-out;
+$transition-delay: 0s;
+
+$animation-duration: $transition-duration * 3;
+
+// Colors
+//////////////////////////////////////////////////////
+
+// Palette
+
+$colors__white: #fff;
+$colors__black: #000;
+
+$colors__primary: #b0b2f0;
+$colors__second: #d930aa;
+
+// Grays
+$colors__grays--lighter: #fafafa;
+
+// Links
+$colors__link: $colors__primary;
+$colors__link--hover: darken(#44529c, $fade);
+
+// Borders and shadows
+
+$colors__shadows: $colors__black;
+
+$colors__border: $colors__grays--lighter !default;
+$colors__placeholder: $colors__border !default;
+
+// Breackpoints and containers
+//////////////////////////////////////////////////////
+
+// Extra small screen / XS / phone
+$xs: 479px;
+
+// Small screen / SM / tablet
+$sm: 767px;
+
+// Medium screen / MD desktop
+$md: 1024px;
+
+// Large screen / LG desktop / небольшие экраны - ноуты
+$lg: 1240px;

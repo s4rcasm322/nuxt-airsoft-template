@@ -1,0 +1,27 @@
+// Project Utilities
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+
+// Animation utilite example
+//////////////////////////////////////////////////////
+
+.fadeAndLeft {
+  will-change: transform, opacity;
+  @include animations("left #{$animation-duration}", "fade #{$animation-duration}");
+}
+
+
+// Elements
+//////////////////////////////////////////////////////
+
+// Fixed container
+.container {
+  @extend %container;
+  margin: 0 auto;
+}
+
+// Rubber Container
+.container-fluid {
+  @extend %container;
+  width: 100%;
+}

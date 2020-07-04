@@ -1,0 +1,44 @@
+// Project placeholders
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+
+%background {
+  &--black {
+    background: $colors__black;
+  }
+
+  &--white {
+    background: $colors__white;
+  }
+}
+
+%scroll-optimization {
+  transform: translate3d(0, 0, 0);
+  will-change: scroll-position;
+}
+
+%container {
+  padding-left: $gutter;
+  padding-right: $gutter;
+
+  @include xs {
+    padding-left: $gutter / 2;
+    padding-right: $gutter / 2;
+  }
+}
+
+%overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  @include size(100%, 100%);
+}
+
+// Text overflow ellipsis protection
+%string-ellipsis-protection {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
